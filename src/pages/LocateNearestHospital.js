@@ -266,7 +266,7 @@ const LocateNearestHospital = () => {
         </Button>
       </div>
       <div className="card">
-        <h2>Locate Nearest Hospital</h2>
+        <h2>Locate Nearest Hospitals</h2>
 
         <FormControl variant="outlined" className="form-control">
           <InputLabel>Select Department</InputLabel>
