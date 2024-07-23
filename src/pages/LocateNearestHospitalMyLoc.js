@@ -86,7 +86,7 @@ const LocateNearestHospitalMyLoc = () => {
     // Replace this URL with the URL of your API and adjust query parameter if needed
     try {
       let res = await fetch(
-        `https://geocode.maps.co/search?q=${textToSearch}&api_key=<key>`,
+        `https://geocode.maps.co/search?q=${textToSearch}&api_key=669fa4dd3ba38680541277gxwfd7923`,
         requestOptions
       );
       res = await res.text();
