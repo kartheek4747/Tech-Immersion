@@ -90,7 +90,7 @@ const LocateNearestHospital = () => {
       redirect: "follow",
     };
 
-    fetch("http://localhost:7071/api/getHospitalsList", requestOptions)
+    fetch("https://tech-immersion.azurewebsites.net/api/getHospitalsList", requestOptions)
       .then((response) => response.text())
       .then((result) => {
         console.log(result);
