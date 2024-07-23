@@ -59,7 +59,7 @@ const LocateNearestHospitalMyLoc = () => {
       redirect: "follow",
     };
 
-    fetch("https://tech-immersion-apim.azure-api.net/getHospitalsList", requestOptions)
+    fetch("https://tech-immersion-apim.azure-api.net/tech-immersion/getHospitalsList", requestOptions)
       .then((response) => response.text())
       .then((result) => {
         console.log(result);
