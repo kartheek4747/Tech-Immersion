@@ -101,7 +101,7 @@ const LocateNearestHospitalMyLoc = () => {
   //TO DO
   function FindAddress(latitude, longitude) {
     fetch(
-      `https://geocode.maps.co/reverse?lat=${latitude}&lon=${longitude}&api_key=<key>`
+      `https://geocode.maps.co/reverse?lat=${latitude}&lon=${longitude}&api_key=669fa4dd3ba38680541277gxwfd7923`
     )
       .then((res) => {
         console.log(res, "dynamicAddress");
