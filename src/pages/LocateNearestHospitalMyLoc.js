@@ -59,7 +59,7 @@ const LocateNearestHospitalMyLoc = () => {
       redirect: "follow",
     };
 
-    fetch("http://localhost:7071/api/getHospitalsList", requestOptions)
+    fetch("https://tech-immersion.azurewebsites.net/api/getHospitalsList", requestOptions)
       .then((response) => response.text())
       .then((result) => {
         console.log(result);
@@ -228,7 +228,7 @@ const LocateNearestHospitalMyLoc = () => {
     <div className="container">
       
       <div className="card">
-        <h2 >Locate Nearest Hospital</h2>
+        <h2 >Locate Nearest Hospitals</h2>
 
         <FormControl variant="outlined" className="form-control" sx={{ m: 2 }}>
           <InputLabel>Select Department</InputLabel>
